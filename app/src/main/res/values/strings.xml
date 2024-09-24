@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Tugas5PPPB1</string>
+    <string name="pemesanan_tiket_kereta">Pemesanan Tiket Kereta</string>
+    <string name="nama_penumpang">Nama Penumpang</string>
+    <string name="pesan_tiket">Pesan Tiket</string>
+    <string name="pilih_tanggal_keberangkatan">Pilih Tanggal Keberangkatan</string>
+    <string name="pilih_jam_keberangkatan">Pilih Jam Keberangkatan</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="batal">Batal</string>
+    <string name="rp115_000">Rp115.000</string>
+    <string name="tarif_tiket">Tarif Tiket</string>
+    <string name="konfirmasi_pesanan">Konfirmasi Pesanan</string>
+    <string name="berhasil_mendapatkan_tiket">Berhasil Mendapatkan Tiket !</string>
+    <array name="Tujuan">
+        <item>Madiun</item>
+        <item>Surabaya</item>
+        <item>Yogyakarta</item>
+        <item>Malang</item>
+        <item>Solo</item>
+        <item>Semarang</item>
+        <item>Bandung</item>
+        <item>Jakarta</item>
+        <item>Bogor</item>
+        <item>Depok</item>
+        <item>Bekasi</item>
+    </array>
+</resources>

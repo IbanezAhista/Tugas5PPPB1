@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#6482AD"
+        android:text="@string/pemesanan_tiket_kereta"/>
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="no"
+        android:hint="@string/nama_penumpang"
+        android:textColorHint="#E2DAD6"
+        android:textSize="17sp"
+        android:inputType="textPersonName"
+        android:layout_marginTop="40dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_show_time_picker"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F5EDED"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:text="@string/pilih_jam_keberangkatan"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_show_calendar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_tanggal_keberangkatan"
+        android:backgroundTint="#F5EDED"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"/>
+
+    <Spinner
+        android:id="@+id/spinnerTujuan"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_beli_tiket"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="16sp"
+        android:backgroundTint="#6482AD"
+        android:text="@string/pesan_tiket" />
+
+</LinearLayout>
